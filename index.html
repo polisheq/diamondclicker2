@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Polityka Prywatności - Diamond Clicker 2</title>
+    <style>
+        :root {
+            --primary-color: #3498db;
+            --primary-hover: #2980b9;
+            --bg-color: #1a1a1a;
+            --container-bg: #2d2d2d;
+            --text-color: #e0e0e0;
+            --heading-color: #ffffff;
+            --border-color: #404040;
+        }
+
+        body {
+            font-family: 'Segoe UI', Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+        }
+
+        h1 {
+            color: var(--heading-color);
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 10px;
+            text-align: center;
+            font-weight: 600;
+        }
+
+        h2 {
+            color: var(--heading-color);
+            margin-top: 30px;
+            font-weight: 500;
+        }
+
+        p {
+            margin-bottom: 15px;
+        }
+
+        .container {
+            background-color: var(--container-bg);
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+        }
+
+        .game-title {
+            text-align: center;
+            color: var(--primary-color);
+            margin-bottom: 20px;
+            font-size: 2.2em;
+            text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        }
+
+        .language-switch {
+            text-align: right;
+            margin-bottom: 30px;
+            display: flex;
+            justify-content: flex-end;
+            gap: 10px;
+        }
+
+        .language-switch button {
+            padding: 8px 16px;
+            cursor: pointer;
+            background-color: var(--container-bg);
+            color: var(--text-color);
+            border: 2px solid var(--primary-color);
+            border-radius: 8px;
+            font-size: 14px;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .language-switch button:hover {
+            background-color: var(--primary-color);
+            color: white;
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(52, 152, 219, 0.3);
+        }
+
+        .language-switch button.active {
+            background-color: var(--primary-color);
+            color: white;
+        }
+
+        .language-content {
+            display: none;
+            animation: fadeIn 0.3s ease;
+        }
+
+        .language-content.active {
+            display: block;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+            padding-left: 20px;
+            position: relative;
+        }
+
+        ul li:before {
+            content: "•";
+            color: var(--primary-color);
+            position: absolute;
+            left: 0;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        small {
+            color: #888;
+            display: block;
+            text-align: right;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="language-switch">
+            <button onclick="changeLanguage('pl')" class="active">PL</button>
+            <button onclick="changeLanguage('en')">EN</button>
+        </div>
+
+        <!-- Polish Version -->
+        <div lang="pl" class="language-content active">
+            <h1 class="game-title">Diamond Clicker 2</h1>
+            <h1>Polityka Prywatności</h1>
+            
+            <h2>1. Informacje ogólne</h2>
+            <p>Niniejsza polityka prywatności określa zasady przetwarzania i ochrony danych osobowych przekazanych przez Użytkowników w związku z korzystaniem z gry Diamond Clicker 2.</p>
+
+            <h2>2. Administrator danych</h2>
+            <p>Administratorem danych osobowych jest [Twoje imię i nazwisko lub nazwa firmy], prowadzący działalność pod nazwą Diamond Clicker 2.</p>
+
+            <h2>3. Cel zbierania danych</h2>
+            <p>Dane osobowe zbierane są w celu:</p>
+            <ul>
+                <li>Świadczenia usług związanych z grą Diamond Clicker 2</li>
+                <li>Zapewnienia funkcjonalności gry i zapisywania postępów</li>
+                <li>Odpowiadania na zapytania użytkowników</li>
+                <li>Wysyłania powiadomień o aktualizacjach gry (za zgodą użytkownika)</li>
+            </ul>
+
+            <h2>4. Rodzaj przetwarzanych danych</h2>
+            <p>W związku z korzystaniem z gry Diamond Clicker 2 przetwarzamy następujące dane:</p>
+            <ul>
+                <li>Dane konta gry (nick, postęp w grze, osiągnięcia)</li>
+                <li>Adres e-mail (jeśli podany)</li>
+                <li>Dane techniczne (adres IP, informacje o urządzeniu)</li>
+                <li>Statystyki gry i wyniki</li>
+            </ul>
+
+            <h2>5. Prawa użytkownika</h2>
+            <p>Użytkownik ma prawo do:</p>
+            <ul>
+                <li>Dostępu do swoich danych</li>
+                <li>Sprostowania danych</li>
+                <li>Usunięcia danych</li>
+                <li>Ograniczenia przetwarzania</li>
+                <li>Przenoszenia danych</li>
+                <li>Sprzeciwu wobec przetwarzania</li>
+            </ul>
+
+            <h2>6. Pliki cookies i dane lokalne</h2>
+            <p>Gra Diamond Clicker 2 korzysta z plików cookies i lokalnego przechowywania danych w celu:</p>
+            <ul>
+                <li>Zapisywania postępów w grze</li>
+                <li>Zapamiętywania ustawień gracza</li>
+                <li>Analizy statystyk gry</li>
+            </ul>
+            <p>Użytkownik może w każdej chwili zmienić ustawienia dotyczące plików cookies w ustawieniach swojej przeglądarki.</p>
+
+            <h2>7. Bezpieczeństwo danych</h2>
+            <p>Zapewniamy odpowiednie środki bezpieczeństwa chroniące dane użytkowników przed nieuprawnionym dostępem, utratą lub zniszczeniem.</p>
+
+            <h2>8. Kontakt</h2>
+            <p>W sprawach związanych z ochroną danych osobowych można kontaktować się z nami pod adresem e-mail: damians5623@gmail.com</p>
+
+            <p><small>Ostatnia aktualizacja: 24.05.2025</small></p>
+        </div>
+
+        <!-- English Version -->
+        <div lang="en" class="language-content">
+            <h1 class="game-title">Diamond Clicker 2</h1>
+            <h1>Privacy Policy</h1>
+            
+            <h2>1. General Information</h2>
+            <p>This privacy policy sets out the rules for processing and protecting personal data provided by Users in connection with their use of the Diamond Clicker 2 game.</p>
+
+            <h2>2. Data Controller</h2>
+            <p>The controller of personal data is [Your name or company name], operating under the name Diamond Clicker 2.</p>
+
+            <h2>3. Purpose of Data Collection</h2>
+            <p>Personal data is collected for the following purposes:</p>
+            <ul>
+                <li>Providing services related to Diamond Clicker 2</li>
+                <li>Ensuring game functionality and saving progress</li>
+                <li>Responding to user inquiries</li>
+                <li>Sending game update notifications (with user consent)</li>
+            </ul>
+
+            <h2>4. Types of Processed Data</h2>
+            <p>In connection with the use of Diamond Clicker 2, we process the following data:</p>
+            <ul>
+                <li>Game account data (nickname, game progress, achievements)</li>
+                <li>Email address (if provided)</li>
+                <li>Technical data (IP address, device information)</li>
+                <li>Game statistics and results</li>
+            </ul>
+
+            <h2>5. User Rights</h2>
+            <p>The user has the right to:</p>
+            <ul>
+                <li>Access their data</li>
+                <li>Correct their data</li>
+                <li>Delete their data</li>
+                <li>Restrict data processing</li>
+                <li>Data portability</li>
+                <li>Object to data processing</li>
+            </ul>
+
+            <h2>6. Cookies and Local Data</h2>
+            <p>Diamond Clicker 2 uses cookies and local storage for:</p>
+            <ul>
+                <li>Saving game progress</li>
+                <li>Remembering player settings</li>
+                <li>Analyzing game statistics</li>
+            </ul>
+            <p>Users can change their cookie settings in their browser settings at any time.</p>
+
+            <h2>7. Data Security</h2>
+            <p>We implement appropriate security measures to protect user data against unauthorized access, loss, or destruction.</p>
+
+            <h2>8. Contact</h2>
+            <p>For matters related to personal data protection, you can contact us at: damians5623@gmail.com</p>
+
+            <p><small>Last updated: May 24, 2025</small></p>
+        </div>
+    </div>
+
+    <script>
+        // Funkcja do zmiany języka
+        function changeLanguage(lang) {
+            // Ukryj wszystkie wersje językowe
+            document.querySelectorAll('.language-content').forEach(el => {
+                el.classList.remove('active');
+            });
+            
+            // Pokaż wybraną wersję
+            document.querySelector(`.language-content[lang="${lang}"]`).classList.add('active');
+            
+            // Ustaw atrybut lang dla całego dokumentu
+            document.documentElement.lang = lang;
+            
+            // Aktualizuj przyciski
+            document.querySelectorAll('.language-switch button').forEach(btn => {
+                btn.classList.remove('active');
+            });
+            document.querySelector(`.language-switch button[onclick="changeLanguage('${lang}')"]`).classList.add('active');
+            
+            // Zapisz wybrany język w localStorage
+            localStorage.setItem('preferredLanguage', lang);
+        }
+
+        // Funkcja inicjalizująca język przy ładowaniu strony
+        function initLanguage() {
+            // Pobierz zapisany język lub użyj domyślnego (pl)
+            const savedLanguage = localStorage.getItem('preferredLanguage') || 'pl';
+            changeLanguage(savedLanguage);
+        }
+
+        // Wywołaj inicjalizację języka po załadowaniu strony
+        document.addEventListener('DOMContentLoaded', initLanguage);
+    </script>
+</body>
+</html> 
